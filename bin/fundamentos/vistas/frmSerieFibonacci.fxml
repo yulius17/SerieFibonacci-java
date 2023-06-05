@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fundamentos.controlador.SerieController">
+   <children>
+      <Label fx:id="lblNumero" layoutX="108.0" layoutY="144.0" text="Numero" />
+      <Label fx:id="lblSerie" layoutX="108.0" layoutY="227.0" text="Serie" />
+      <TextField fx:id="txtNumero" layoutX="176.0" layoutY="140.0" />
+      <TextField fx:id="txtSerie" layoutX="176.0" layoutY="223.0" prefHeight="44.0" prefWidth="198.0" />
+      <Button fx:id="btnGenerarSerie" layoutX="176.0" layoutY="323.0" mnemonicParsing="false" onAction="#onGenerarSerie" text="Generar Serie" />
+   </children>
+</AnchorPane>
